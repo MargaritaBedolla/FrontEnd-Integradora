@@ -1,0 +1,239 @@
+/* FONT */
+  
+  /* CSS */
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: gothic;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+  }
+  
+  header {
+    width: 100%;
+    /* height: 100vh; */
+  }
+  
+  /* NAVEGATION */
+  nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+  }
+  
+  .logo {
+    width: 60px;
+    margin-left: 20px;
+  }
+  
+  .bar-btn {
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 80px;
+    background: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  .nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all 0.5s;
+  }
+  
+  .nav-menu li a {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .nav-menu li a.active,
+  .nav-menu li a:hover {
+    font-weight: 900;
+    transition: 0.3s;
+    content: "";
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  #check:checked ~ .nav-menu {
+    height: 100vh;
+  }
+  
+  #check:checked ~ .nav-menu li {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* CSS */
+    .logo {
+      width: 50px;
+      margin-left: 50px;
+    }
+  
+    nav {
+      height: 60px;
+      background-color: #04122C;
+    }
+  
+    .bar-btn {
+      display: none;
+    }
+  
+    .nav-menu {
+      position: relative;
+      height: 100px;
+      top: 0px;
+      background: none;
+      transition: none;
+      text-align: right;
+      margin-right: 50px;
+    }
+  
+    .nav-menu li {
+      display: inline-block;
+      line-height: 100px;
+      margin: 0 20px;
+      transition: none;
+    }
+  
+    .nav-menu li a {
+      color: white;
+      font-size: 20px;
+    }
+  
+    .active{
+      cursor: pointer;
+    }
+  }
+  
+  /* FOOTER */
+  footer {
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #071E4B;
+  }
+  
+  .copyright-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .copyright {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+  
+  .footer-container {
+    padding: 3rem 6rem;
+    margin: auto;
+    width: max-content;
+    font-size: 20px;
+  }
+  
+  .footer-content-container {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .footer-img{
+    width: 10%;
+  }
+.container-pp {
+    margin: auto;
+    background: #2a458d;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    border-radius: 40px;
+    margin-top: 20px;
+  }
+  
+  .container-p {
+    text-align: center;
+    position: relative;
+  }
+  
+  .container-p p {
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-left: 190px;
+  }
+  
+  .header-t{
+      background: #727987;
+  }
+  
+  .stack {
+      margin-top: 50px;
+  }
+  
+  .e{
+      text-decoration: none;
+      background:  #2a458d;
+      padding: 20px 20px;
+      cursor: pointer;
+      border-radius: 20px;
+      color: rgb(255, 249, 255);
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .s{
+      text-decoration: none;
+      background: #c61f24;;
+      padding: 20px 20px;
+      cursor: pointer;
+      border-radius: 20px;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .btns{
+      text-align: center;
+  }
+  
+  nav1 {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #04122C;
+    }

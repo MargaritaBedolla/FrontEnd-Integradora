@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/950899749228281868/1089404885960765491/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .boxf {
+    margin-top: 50px;
+    margin-bottom: 27px;
+    
+  }
+  
+  .box {
+    margin: auto;
+    width: 600px;
+    padding: 40px;
+    background: #8db5d6;
+    text-align: center;
+    position: relative;
+    border-radius: 60px;
+    margin-bottom: 177px;
+    border: 2px solid #06143b;
+  }
+  .box h1 {
+    color: rgb(34, 33, 33);
+    font-weight: 900;
+    
+  }
+  .box p {
+    margin-top: 20px;
+    color: rgb(34, 33, 33);
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .box h2 {
+    color: rgb(22, 21, 21);
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .box input[type="usertype"],
+  .box input[type="email"],
+  .box input[type="password"] {
+    border: 0;
+    background: #EEEEEE;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #909091;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 20px;
+  }
+  .box input[type="usertype"]:focus,
+  .box input[type="email"]:focus,
+  .box input[type="password"]:focus {
+    width: 350px;
+    border-color: #ffffff;
+  }
+  .box a[type="submit"] {
+    width: 70%;
+    border: 0;
+    background: #0d295a;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #06143b;
+    padding: 14px 40px;
+    outline: none;
+    color: #ffffff;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .box a[type="submit"]:hover {
+    background: #7c94a7;
+  }
+  .logof {
+    width: 30%;
+  }
+ 
